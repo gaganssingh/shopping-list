@@ -5,9 +5,9 @@ $(function addItem() {
         event.preventDefault();
         // Assign a const to the text input of <input>
         // using class .js-shopping-list-entry
-        const addItemValue = $(".js-shopping-list-entry").val();
+        const addItemValue = $("#shopping-list-entry").val();
         // clear text field
-        $(".js-shopping-list-entry").val("");
+        $("#shopping-list-entry").val("");
         // Append the list format from the html
         // to the <ul> targeting the class shopping-list
         // using text received from addItemValue
